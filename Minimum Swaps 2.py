@@ -13,10 +13,20 @@ def swapPosition(q,i,j): #(queue,position1, position2)
 
 # Complete the minimumSwaps function below.
 def minimumSwaps(q):
+    swap = 0
+    i=0
+    while i != len(q)-1:
+        if q[i] == i+1:
+            i=i+1
+        else:
+            q = swapPosition(q,i,q[i]-1)
+            swap = swap + 1
+    return swap
 
 
 
 
+"""
     swap =0;
     for i in range(len(q)):
         if q[i] != i+1:
@@ -26,7 +36,7 @@ def minimumSwaps(q):
                    swap = swap+1
                    break;
     return swap
-
+"""
 
 
 
