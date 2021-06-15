@@ -7,7 +7,7 @@ options.add_argument("--user-data-dir=chrome-data")
 options.add_experimental_option("excludeSwitches", ["enable-automation"])
 options.add_experimental_option('useAutomationExtension', False)
 
-driver = webdriver.Chrome("E:\\Downloads\\chromedriver2.exe", options=options)
+driver = webdriver.Chrome("C:\\Users\\dell\\Documents\\GitHub\\HackerRank\\chrome-data\\chromedriver2.exe", options=options)
 
 driver.get('https://web.whatsapp.com')
 
