@@ -1,8 +1,14 @@
 import imghdr
 import struct
+#
+# import docx2txt
+#
+# text = docx2txt.process("/Users/rahul.madan/PycharmProjects/HackerRank-and-leetcode/lab2.docx",
+#                         '/Users/rahul.madan/PycharmProjects/HackerRank-and-leetcode/img/')
+#
 
-import docx2txt
+from collections import Counter
+items = ['a', 'b', 'a', 'c', 'd', 'd', 'd', 'c', 'a', 'b']
+counts = Counter(items)
 
-text = docx2txt.process("/Users/rahul.madan/PycharmProjects/HackerRank-and-leetcode/lab2.docx",
-                        '/Users/rahul.madan/PycharmProjects/HackerRank-and-leetcode/img/')
-
+print(dict(counts))
