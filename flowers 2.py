@@ -4,6 +4,7 @@ def findSubArray(arr):
     maxsize = -1
     startindex =0
 
+
     # Pick a starting point as i
 
     for i in range(0, n - 1):
