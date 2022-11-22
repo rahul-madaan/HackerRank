@@ -3,6 +3,7 @@ price = list(map(int, input().strip().split(" ")))
 
 t = int(input())
 
+
 budget = []
 for i in range(t):
     budget.append(int(input()))
