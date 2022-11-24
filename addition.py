@@ -4,6 +4,7 @@ def addition(a, b):
 
 repetition = int(input())
 
+
 for i in range(repetition):
     line = input()
     line = line.split(" ")
