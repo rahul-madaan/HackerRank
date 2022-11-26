@@ -4,6 +4,7 @@ inp = list(map(int,input().split()))
 n = inp[0]
 m = inp[1]
 
+
 if m == 1:
     print(n-1)
 else:
